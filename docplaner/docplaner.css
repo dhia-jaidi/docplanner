@@ -1,0 +1,269 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+
+}
+::selection{
+    background-color: #00b39b;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+} 
+header nav img{
+    width: 150px;
+    
+    
+}
+header nav{
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+header nav ul{
+display: flex;
+list-style: none;
+
+
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+}
+header nav ul li{
+
+    padding: px;
+} 
+header nav ul li{
+    margin-left: 30px;
+}
+#nav{
+    position: relative;
+    bottom: 100px;
+}
+header nav ul li a:hover{
+      color: #00b39b;;
+}
+.drop{
+    position: relative;
+    right: 250px;
+ 
+}
+    
+
+#active{
+         color: #00b39b;;
+}
+.drop-menu{
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    background-color: rgba(206, 206, 206, 0.514);
+    width: 500%;
+    display: none;
+}
+.drop-menu{
+    padding: 5px 12 ;
+
+}
+.drop:hover > .drop-menu{
+
+    display: flex;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+  
+}
+main .land{
+    text-align: center;
+}
+main .land >*{
+    margin-top: 44px;
+}
+main .land p{
+    font-size: 2.125rem;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    color: #00b39b;
+}
+.parag{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.parag p{
+    width: 40%;
+}
+.cartes img{
+    width: 50px;
+    
+} 
+.cartes .carte{
+    width: 20%;
+    padding: 2rem 2rem;
+    border-radius: 8px;
+    margin-top: 110px;
+ 
+}
+    .carte {
+        background-color:#00ccb1;
+    }
+    .carte>*{
+        color: #ffffff;
+    }
+    .carte select{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        margin-top: 70px;
+    }
+.carte {
+    font-weight: 350;
+    font-size: x-large;
+}
+.cartes{
+    display: flex;
+    justify-content: space-between;
+}
+.bleu{
+    background-color: #3d83df;
+}
+.black{
+    background-color: #1b2734;;
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.brand{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.brand svg{
+    width: 120px;
+    margin-left: 20px;
+    fill: #747474;
+}
+.brand svg:hover{
+    fill: #00b39b;
+}
+.brands p{
+    font-size: x-large;
+    color: #00b39b;
+}
+.big-secion{
+    
+    width: 100%;
+    height: 600px;
+   background-color: #aafff4; 
+   background-image: url(./dhia.ja.png);
+   background-repeat: no-repeat;
+    display: flex;
+    background-position-y :250px;
+    background-position-x:100px ;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 300px;
+   
+   
+    justify-content: space-between;
+}
+.card{
+    width: 120px;
+    height: 110px;
+    background-color: #00ccb1;
+}
+.bigbig{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+.dash{
+    margin-top: 15px;
+}
+.big-first{
+    width: 40%;
+}
+.boost{
+    width: 100%;
+    height: 1000px;
+   
+}
+header{
+    z-index: 99999;
+}
+.cont{
+   
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+   
+}
+.cont>*{
+    margin-top: 250px;
+}
+.flex-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-card3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.di{
+    width: 15px;
+    justify-content: center;
+}
+#hd{
+    position: relative;
+    bottom: 20px;
+}
+#dn{
+    position: relative;
+    bottom: 20px;
+}
+#drr{
+    width: 10px;
+}
+#dt{
+    position: relative;
+    bottom: 15px;
+}
+#nd{
+    position: relative;
+    bottom: 15px;
+}
+#jaidi{
+    position: relative;
+   top: 50px;
+}
+#dhiajaidi{
+    width: 170px;
+    position: relative;
+    bottom: 20px;
+}
